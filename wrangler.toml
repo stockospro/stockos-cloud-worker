@@ -10,4 +10,4 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "stockos_cloud_db"
-database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+database_id = "00000002-00000007-000050e3-f81f38ca3af04fd0a6ab805c83b2f1fe"
