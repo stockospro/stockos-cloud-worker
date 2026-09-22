@@ -1,0 +1,13 @@
+name = "stockos-cloud"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# D1 database — where all godown/product/stock/sales data lives.
+# One-time setup, before your first deploy:
+#   1. Run: wrangler d1 create stockos_cloud_db
+#   2. It prints a `database_id = "...."` line — paste that below.
+#   3. Load the schema: wrangler d1 execute stockos_cloud_db --file=schema.sql
+[[d1_databases]]
+binding = "DB"
+database_name = "stockos_cloud_db"
+database_id = "e558c612-76cf-42b1-a6cf-14b9ae63919e"
